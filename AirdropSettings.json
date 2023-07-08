@@ -1,7 +1,7 @@
 {
     "Controls": {
         "Version": "1.21.07.20",
-        "Interval": 45,
+        "Interval": 20,
         "Mode": 3,
         "AD_LogManager": 1,
         "AD_LogAircraft": 1,
@@ -38,13 +38,13 @@
     },
     "Container": {
         "TriggerAGL": 1.0,
-        "FallRate": 7.0,
+        "FallRate": 5.0,
         "StandUpTimer": 0.10000000149011612,
         "SpawnMin": 1.5,
         "SpawnMax": 3.5,
         "SpawnOffset": 0.0010000000474974514,
         "WindStrength": 0.10000000149011612,
-        "Lifespan": 60
+        "Lifespan": 30
     },
     "Locations": [
         {
@@ -425,7 +425,7 @@
             "SpawnMin": 1.0,
             "SpawnMax": 3.0,
             "SpawnOffset": 0.05000000074505806,
-            "Lifespan": 60,
+            "Lifespan": 30,
             "Items": [
                 "Bandage",
                 "BandageDressing",
@@ -462,7 +462,7 @@
             "SpawnMin": 1.0,
             "SpawnMax": 3.0,
             "SpawnOffset": 0.05000000074505806,
-            "Lifespan": 60,
+            "Lifespan": 30,
             "Items": [
                 "BBP_Wall_Kit",
                 "BBP_Door_Kit",
@@ -510,7 +510,7 @@
             "SpawnMin": 1.0,
             "SpawnMax": 3.0,
             "SpawnOffset": 0.05000000074505806,
-            "Lifespan": 60,
+            "Lifespan": 30,
             "Items": [
                 "Mag_CMAG_10Rnd",
                 "Mag_CMAG_20Rnd",
@@ -548,7 +548,7 @@
             ]
         },
         {
-            "Title": "Handguns",
+            "Title": "Beany Boi",
             "Container": "AirdropContainer",
             "Quantity": 6,
             "AddFlare": 10.0,
@@ -557,20 +557,16 @@
             "SpawnOffset": 0.05000000074505806,
             "Lifespan": 60,
             "Items": [
-                "TWP_SigSauerP229",
-                "TWP_SigSauerP229_mag_13Rnd",
-                "TWP_SigSauerP229_mag_13Rnd",
-                "TWP_Beretta92FS_mag_15Rnd",
-                "TWP_Glock19M",
-                "TWP_Glock19M_mag_15Rnd",
-                "TWP_Glock19M_mag_15Rnd",
-                "TWP_BerettaPX4",
-                "TWP_BerettaPX4_mag_17Rnd",
-                "TWP_BerettaPX4_mag_17Rnd"
+                "BakedBeansCan_Opened",
+                "BakedBeansCan_Opened",
+                "BakedBeansCan_Opened",
+                "BakedBeansCan_Opened",
+                "BakedBeansCan_Opened",
+                "Msp_BeanBasher"
             ]
         },
         {
-            "Title": "Assault Rifles",
+            "Title": "Handgun Burton",
             "Container": "AirdropContainer",
             "Quantity": 6,
             "AddFlare": 10.0,
@@ -578,68 +574,105 @@
             "SpawnMax": 3.0,
             "SpawnOffset": 0.05000000074505806,
             "Lifespan": 60,
+            "Items": [
+                "TWP_BerettaDEBurton",
+                "TWP_BerettaDE_mag_15Rnd",
+                "TWP_BerettaDE_mag_15Rnd",
+                "Fwinkies",
+                "CP_JointKush",
+                "CP_JointKush"
+            ]
+        },
+        {
+            "Title": "TWP_AR15_Cannabis",
+            "Container": "AirdropContainer",
+            "Quantity": 10,
+            "AddFlare": 10.0,
+            "SpawnMin": 1.0,
+            "SpawnMax": 3.0,
+            "SpawnOffset": 0.05000000074505806,
+            "Lifespan": 30,
             "Items": [
                 "TWP_AR15_Cannabis",
                 "TWP_AR15Cannabis_mag_30Rnd",
                 "TWP_AR15Cannabis_mag_30Rnd",
-                "TWP_ACE23",
-                "TWP_ACE23_mag_30Rnd",
-                "TWP_ACE23_mag_30Rnd",
-                "TWP_Stoner63",
-                "TWP_Stoner63_mag_30Rnd",
-                "TWP_Stoner63_mag_30Rnd",
-                "TWP_ACR",
-                "TWP_ACR_mag_30Rnd",
-                "TWP_ACR_mag_30Rnd"
+                "AmmoBox_556x45_20Rnd",
+                "AmmoBox_556x45_20Rnd",
+                "Fwinkies",
+                "CP_Jointblue"
             ]
         },
         {
-            "Title": "Shotgun",
+            "Title": "TWP_BenelliM4",
             "Container": "AirdropContainer",
-            "Quantity": 6,
+            "Quantity": 10,
             "AddFlare": 10.0,
             "SpawnMin": 1.0,
             "SpawnMax": 3.0,
             "SpawnOffset": 0.05000000074505806,
-            "Lifespan": 60,
+            "Lifespan": 30,
             "Items": [
-                "TWP_Mossberg500",
-                "TWP_BenelliM4",
-                "TWP_Remington870Tactical",
+                "TWP_BenelliM4",                
                 "AmmoBox_12gaSlug_10Rnd",
                 "AmmoBox_12gaSlug_10Rnd",
                 "AmmoBox_00buck_10rnd",
-                "AmmoBox_12gaRubberSlug_10Rnd",
-                "TWP_SPAS",
-                "TWP_SawedShotgun",
                 "AmmoBox_00buck_10rnd",
                 "AmmoBox_00buck_10rnd",
-                "AmmoBox_00buck_10rnd"
+                "AmmoBox_00buck_10rnd",
+                "Fwinkies",
+                "CP_Jointstardawg"
             ]
         },
         {
-            "Title": "Sniper",
+            "Title": "MVS Tan",
             "Container": "AirdropContainer",
-            "Quantity": 6,
+            "Quantity": 10,
             "AddFlare": 10.0,
             "SpawnMin": 1.0,
             "SpawnMax": 3.0,
             "SpawnOffset": 0.05000000074505806,
-            "Lifespan": 60,
+            "Lifespan": 30,
             "Items": [
-                "TWP_M24Wood",
-                "TWP_M24_mag_4Rnd",
-                "TWP_M24_mag_4Rnd",
-                "TWP_SSG69",
-                "TWP_SSG69_mag_5Rnd",
-                "TWP_SSG69_mag_5Rnd",
-                "TWP_SVDDragunovGreyTan",
-                "TWP_Dragunov_mag_10Rnd",
-                "AmmoBox_308Win_20Rnd",
-                "AmmoBox_308WinTracer_20Rnd",
-                "AmmoBox_308Win_20Rnd",
-                "TWP_Dragunov_mag_10Rnd",
-                "TWP_LongRangeOptic_Black"
+                "MVS_Belt_Tan",
+                "MVS_Holster_Tan",
+                "MVS_Sheath_Tan",
+                "MVS_Compact_1_Tan",
+                "MVS_ChestRig_Tan",
+                "MVS_CombatPants_Tan",
+				"MVS_CombatShirt_Tan",
+				"Fwinkies",
+				"CP_JointKush"
+            ]
+        },
+        {
+            "Title": "MVS Grab bag",
+            "Container": "AirdropContainer",
+            "Quantity": 10,
+            "AddFlare": 10.0,
+            "SpawnMin": 1.0,
+            "SpawnMax": 3.0,
+            "SpawnOffset": 0.05000000074505806,
+            "Lifespan": 30,
+            "Items": [
+				"MVS_Belt_OD",
+                "MVS_Holster_OD",
+                "MVS_Sheath_OD",
+                "MVS_Compact_1_Tan",
+                "MVS_ChestRig_ERDL",
+                "MVS_CombatPants_Tan",
+				"MVS_CombatShirt_Black",
+				"MVS_ChestRig_Black",
+				"MVS_CombatPants_Black",
+				"MVS_CombatShirt_Snow",
+				"MVS_Belt_Snow",
+				"MVS_Compact_1_Snow",
+				"MVS_Holster_ERDL",
+				"MVS_CombatPants_OD",
+				"MVS_Sheath_Black",
+				"MVS_6B47_Helmet_OD",
+				"MVS_6B47_Helmet_Black",
+				"Fwinkies",
+				"CP_JointKush"
             ]
         }
     ],
